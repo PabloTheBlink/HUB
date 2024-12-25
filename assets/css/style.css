@@ -128,7 +128,7 @@ main ul.resources {
 
 main ul.resources li.resource {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
 
   background-color: white;
@@ -159,6 +159,13 @@ main ul.resources li.resource ul li {
 main ul.resources li.resource ul li.active {
   background-color: var(--color-primary);
   color: #fff;
+}
+
+main ul.resources li.resource p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 100%;
 }
 
 main ul.resources li.resource:hover {
