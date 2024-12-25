@@ -90,7 +90,7 @@ Component({
               .map(
                 (resource) => /* HTML */ `
                   <li class="resource">
-                    <img src="${resource.icon}" alt="${resource.name}" />
+                    <img lazy src="${resource.icon}" alt="${resource.name}" />
                     <div style="max-width: calc(100% - 3rem - 7rem)">
                       <h3>${resource.name}</h3>
                       <p>${resource.description}</p>
