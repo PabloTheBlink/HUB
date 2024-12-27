@@ -110,7 +110,7 @@ Component({
 
       <footer>
         <a href="https://github.com/PabloTheBlink/HUB" target="_blank">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
+          <img lazy src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
         </a>
       </footer>
     `;
