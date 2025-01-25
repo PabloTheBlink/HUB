@@ -34,4 +34,40 @@ export const resources = [
     icon: "https://www.photopea.com/promo/icon512.png",
     categories: ["Imágen"],
   },
+  // AI
+  {
+    name: "JSON Crack",
+    description: "Visualizador de JSON interactivo y elegante",
+    url: "https://jsoncrack.com/",
+    icon: "https://jsoncrack.com/assets/192.png",
+    categories: ["Programación", "Herramientas"],
+  },
+  {
+    name: "Regex101",
+    description: "Editor y tester de expresiones regulares en tiempo real",
+    url: "https://regex101.com/",
+    icon: "https://regex101.com/static/assets/favicon.ico",
+    categories: ["Programación", "Herramientas"],
+  },
+  {
+    name: "Carbon",
+    description: "Crea hermosas imágenes de tu código fuente",
+    url: "https://carbon.now.sh/",
+    icon: "https://carbon.now.sh/favicon.ico",
+    categories: ["Programación", "Imágen"],
+  },
+  {
+    name: "Excalidraw",
+    description: "Pizarra virtual para diagramas y bocetos",
+    url: "https://excalidraw.com/",
+    icon: "https://excalidraw.com/favicon.ico",
+    categories: ["Diseño", "Herramientas"],
+  },
+  {
+    name: "TinyPNG",
+    description: "Compresor de imágenes PNG y JPEG sin pérdida de calidad",
+    url: "https://tinypng.com/",
+    icon: "https://tinypng.com/images/favicon.ico",
+    categories: ["Imágen", "Optimización"],
+  },
 ];
