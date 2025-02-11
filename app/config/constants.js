@@ -70,4 +70,11 @@ export const resources = [
     icon: "https://tinypng.com/images/favicon.ico",
     categories: ["Imágen", "Optimización"],
   },
+  {
+    name: "Htmlrev",
+    description: "Plantillas html",
+    url: "https://htmlrev.com/",
+    icon: "https://htmlrev.com/images/logo.svg",
+    categories: ["Programación", "Herramientas"],
+  },
 ];
